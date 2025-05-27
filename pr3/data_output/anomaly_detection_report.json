@@ -1,0 +1,97 @@
+{
+  "experiment_info": {
+    "dataset_size": 2161,
+    "time_range": {
+      "start": "2024-01-01T00:00:00",
+      "end": "2024-03-31T00:00:00"
+    },
+    "companies": [
+      "GreenEnergy",
+      "SolarTech",
+      "ЕнергоУкраїна",
+      "PowerTech",
+      "EcoEnergy",
+      "MegaWatt",
+      "PowerGrid",
+      "UkrElectro"
+    ],
+    "true_anomaly_rate": 0.04997686256362795
+  },
+  "performance_metrics": {
+    "isolation_forest": {
+      "accuracy": 0.93521517815826,
+      "precision": 0.35185185185185186,
+      "recall": 0.35185185185185186,
+      "f1_score": 0.35185185185185186,
+      "true_positives": "38",
+      "false_positives": "70",
+      "false_negatives": "70",
+      "true_negatives": "1983"
+    },
+    "statistical": {
+      "accuracy": 0.9639055992596021,
+      "precision": 1.0,
+      "recall": 0.2777777777777778,
+      "f1_score": 0.4347826086956522,
+      "true_positives": "30",
+      "false_positives": "0",
+      "false_negatives": "78",
+      "true_negatives": "2053"
+    },
+    "ensemble": {
+      "accuracy": 0.9375289217954651,
+      "precision": 0.3805309734513274,
+      "recall": 0.39814814814814814,
+      "f1_score": 0.3891402714932127,
+      "true_positives": "43",
+      "false_positives": "70",
+      "false_negatives": "65",
+      "true_negatives": "1983"
+    }
+  },
+  "data_statistics": {
+    "mean_amount": 1266.4924954881817,
+    "median_amount": 1252.6972952034175,
+    "std_amount": 341.44164015534074,
+    "min_amount": 49.918968264497266,
+    "max_amount": 3344.2683526971177
+  },
+  "temporal_patterns": {
+    "most_active_hours": {
+      "count": {
+        "0": 91,
+        "1": 90,
+        "22": 90,
+        "21": 90,
+        "20": 90
+      },
+      "mean": {
+        "0": 1273.74845199597,
+        "1": 1296.7372783438518,
+        "22": 1172.454537405282,
+        "21": 1119.705525192308,
+        "20": 1099.6773593288349
+      }
+    },
+    "daily_activity": {
+      "count": {
+        "0": 312,
+        "1": 312,
+        "2": 312,
+        "3": 312,
+        "4": 312,
+        "5": 312,
+        "6": 289
+      },
+      "mean": {
+        "0": 1310.7258352838107,
+        "1": 1395.2950506415455,
+        "2": 1366.5085186915373,
+        "3": 1266.484165721601,
+        "4": 1178.1005177787647,
+        "5": 1125.6925350384267,
+        "6": 1219.15092154113
+      }
+    }
+  }
+}
